@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toolbox-cont{
+    width: 100vw;
+    height: 6rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-priority-cont{
+    height: 3rem;
+    width: 18rem;
+    background-color: aliceblue;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.action-btn-cont {
+    height: 3rem;
+    width: 8rem;
+    background-color: aliceblue;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.color{
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.pink{
+    background-color: violet;
+}
+
+.add-btn{
+    font-size: 1.75rem;
+}
+.remove-btn{
+    font-size: 1.5rem;
+}
+
+.modal-cont{
+    height: 50vh;
+    width: 50vw;
+    background-color: burlywood;
+    display: none;
+    position: fixed;
+    left: 25vw;
+    top:25vh;
+    border: 1px solid black;
+}
+
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    padding: 2rem;
+    border-right: 2px solid black;
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+}
+
+.main-cont{
+    margin:2rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color:cornsilk;
+    position: relative;
+}
+
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    font-weight: bold;
+    background-color: grey;
+}
+
+.ticket-area{
+    height: calc(10rem - 1.5rem - 1rem);
+    padding: 5px;
+    font-size: 1.25rem;
+}
+
+.active{
+    border: 5px solid yellow;
+}
+
+.lock-unlock{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
